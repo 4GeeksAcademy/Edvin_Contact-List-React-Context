@@ -34,7 +34,7 @@ export const ProfileCard = (props) => {
                         </div>
                     <div>
                         <Link className="btn btn-light btn-sm" onClick={() => actions.selectContact(props.contact)} to={'/contacto/' + id}>
-                            <i className="fas fa-pencil-alt"></i>Editar
+                            <i className="fas fa-pencil-alt"></i>Editar   
                         </Link>
                         <button
                             className="btn btn-light btn-sm" onClick={() => actions.deleteContact(id)}>
